@@ -5,7 +5,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/USERNAME/JavaDockerProject.git'
+                    url: 'https://github.com/hamritha04/JavaDockerProject.git'
             }
         }
 
